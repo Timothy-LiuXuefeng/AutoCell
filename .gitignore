@@ -1,0 +1,11 @@
+/.vs/
+*.sln
+/Debug/
+/Release/
+/Cell/*
+!/Cell/*.cpp
+!/Cell/*.h
+/AutoCell_Console/*
+!/AutoCell_Console/*.cpp
+!/AutoCell_Console/*.h
+!/AutoCell_Console/*.rc
