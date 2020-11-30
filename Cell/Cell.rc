@@ -1,6 +1,6 @@
 // Microsoft Visual C++ generated resource script.
 //
-#include "resource.h"
+#include "resource1.h"
 
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
@@ -27,7 +27,7 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 
 1 TEXTINCLUDE 
 BEGIN
-    "resource.h\0"
+    "resource1.h\0"
 END
 
 2 TEXTINCLUDE 
@@ -47,16 +47,6 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// Icon
-//
-
-// Icon with lowest ID value placed first to ensure application icon
-// remains consistent on all systems.
-MAINICON                ICON                    "..\\image\\MainIcon.ico"
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
 // Version
 //
 
@@ -70,19 +60,19 @@ VS_VERSION_INFO VERSIONINFO
  FILEFLAGS 0x0L
 #endif
  FILEOS 0x40004L
- FILETYPE 0x1L
+ FILETYPE 0x2L
  FILESUBTYPE 0x0L
 BEGIN
     BLOCK "StringFileInfo"
     BEGIN
         BLOCK "080404b0"
         BEGIN
-            VALUE "FileDescription", "元胞自动机控制台版"
+            VALUE "FileDescription", "元胞自动机DLL"
             VALUE "FileVersion", "1.0.0.1"
-            VALUE "InternalName", "AutoCell_Console.exe"
-            VALUE "LegalCopyright", "Copyright (C) 2020 Timothy Liu All rights reserved. "
-            VALUE "OriginalFilename", "AutoCell_Console.exe"
-            VALUE "ProductName", "AutoCell_Console"
+            VALUE "InternalName", "Cell.dll"
+            VALUE "LegalCopyright", "Copyright (C) 2020"
+            VALUE "OriginalFilename", "Cell.dll"
+            VALUE "ProductName", "元胞自动机DLL"
             VALUE "ProductVersion", "1.0.0.1"
         END
     END

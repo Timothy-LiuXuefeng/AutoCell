@@ -8,7 +8,7 @@ using namespace std;
 
 #define ROWS 30
 #define COLS 30
-#define ROWS_2 32
+#define ROWS_2 33
 #define COLS_2 62
 #define INTERVAL 50
 #undef max
@@ -39,17 +39,22 @@ int main()
 	{
 		//Draw map
 		SetConsoleCursorPosition(hConsoleOutput, consoleBeginPos);
+		cout << "Press space to quit" << endl;
 		for (int i = 0; i < ROWS; ++i)
 		{
 			for (int j = 0; j < COLS; ++j)
-				if (map[i][j]) printf("0 ");
+				if (map[i][j]) cout << "0 ";
 				else printf("  ");
-			putchar('\n');
+			cout << endl;
 		}
 
 		map.Grow(); 
 
+		if (GetKeyState(VK_SPACE) < 0) break; 
+
 		Sleep(INTERVAL); 
 	}
+
+	system("pause"); 
 	return 0; 
 }

@@ -2,13 +2,8 @@
 *.sln
 /Debug/
 /Release/
-/Cell/*
-!/Cell/*.cpp
-!/Cell/*.h
-!/Cell/*.md
-/AutoCell_Console/*
-!/AutoCell_Console/*.cpp
-!/AutoCell_Console/*.h
-!/AutoCell_Console/*.rc
-!/AutoCell_Console/*.md
+/x64/
+/*/Debug/
+/*/Release/
+/*/x64/
 /imageMaker/
